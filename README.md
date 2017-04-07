@@ -32,7 +32,7 @@ Fill in the various fields.
 ### Test
 
 ```
-nodejs unifi.conf
+nodejs unifi.js
 ```
 
 If you get a lot of `PUTENV` lines, you're good to go!
