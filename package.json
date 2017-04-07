@@ -1,0 +1,16 @@
+{
+  "name": "collectd-unifi",
+  "version": "1.0.0",
+  "description": "A collectd script to collect data from Unifi wifi equipment",
+  "main": "unifi.js",
+  "keywords": [
+    "collectd",
+    "unifi"
+  ],
+  "author": "Rob Peck <rob@robpeck.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ini": "^1.3.4",
+    "ubiquiti-unifi": "^1.0.0"
+  }
+}

@@ -1,0 +1,7 @@
+[unifi]
+username=
+password=
+port=8443
+url=
+site=default
+ignoreSsl=1
