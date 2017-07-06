@@ -22,7 +22,7 @@ networkUnifi(options)
         for (var i in accessPoints) {
             if (accessPoints.hasOwnProperty(i)) {
                 var accessPoint = accessPoints[i];
-                var hostname = accessPoint.hostname;
+                var hostname = accessPoint.name.replace(/ +/g, "");
 
                 for (var z in accessPoint.stat) {
                     if (accessPoint.stat.hasOwnProperty(z)) {
